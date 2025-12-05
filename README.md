@@ -56,7 +56,7 @@ echo "5" >> splitlist.txt
 ファイルを持って待機します。
 ```bash
 # ./send.out [Node1用ファイル] [Node2用ファイル] 0 0
-./send.out original.dat.0 original.dat.1 0 0
+./send.out 1.txt 2.txt 0 0
 ```
 
 ### Step 2: Node2 (中継ルーター)
